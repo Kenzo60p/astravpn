@@ -1,0 +1,22 @@
+{
+  "name": "astravpn/enterprise",
+  "description": "AstraVPN Enterprise VPN management platform",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "vlucas/phpdotenv": "^5.5",
+    "firebase/php-jwt": "^6.8",
+    "endroid/qr-code": "^4.5",
+    "guzzlehttp/guzzle": "^7.8",
+    "monolog/monolog": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 -t public"
+  }
+}
